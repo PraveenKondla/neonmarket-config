@@ -4,12 +4,13 @@ server:
 spring:
   application:
     name: user-service
-spring:
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/neonmarketdb
-    username: postgres
-    password:
+    url: jdbc:postgresql://localhost:5432/neon_userdb
+    username: yourusername
+    password: yourpassword
     driver-class-name: org.postgresql.Driver
+
 
   jpa:
     hibernate:
